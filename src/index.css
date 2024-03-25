@@ -24,12 +24,11 @@ body {
   font-family: "DM Sans", sans-serif;
   background-color: var(--bgcolor);
   scroll-behavior: smooth;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 #root {
-  max-width: 95dvw;
   margin: 0 auto;
 }
 
