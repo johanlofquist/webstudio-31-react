@@ -27,12 +27,12 @@ export const Elcompaniet = () => {
         <video
           autoPlay
           muted
-          className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#0f182a]"
+          className="h-[300px] drop-shadow-md transition-all bg-[#0f182a]"
         >
           <source src={film} />
         </video>
       ) : (
-        <div className="w-[500px] h-[300px] bg-[#0f182a] rounded-md drop-shadow-md flex justify-center items-center transition-all">
+        <div className="w-[500px] h-[300px] bg-[#0f182a] drop-shadow-md flex justify-center items-center transition-all">
           <img src={logo} className="w-[200px]" />
         </div>
       )}

@@ -31,12 +31,12 @@ export const Baeza = () => {
         <video
           autoPlay
           muted
-          className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#e8f0ec]"
+          className="h-[300px] drop-shadow-md transition-all bg-[#e8f0ec]"
         >
           <source src={film} />
         </video>
       ) : (
-        <div className="w-[500px] h-[300px] bg-[#e8f0ec] rounded-md drop-shadow-md flex justify-center items-center transition-all">
+        <div className="w-[500px] h-[300px] bg-[#e8f0ec] drop-shadow-md flex justify-center items-center transition-all">
           <PiLeafDuotone className="text-5xl text-[#4abd7f]" />
           <div className="flex flex-col gap-0">
             <p className="text-black cantarell-bold text-lg leading-4">

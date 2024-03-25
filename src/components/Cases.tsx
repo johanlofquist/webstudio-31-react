@@ -5,7 +5,7 @@ import { Elcompaniet } from "./Elcompaniet";
 export const Cases = () => {
   return (
     <>
-      <div className="h-[460px] bg-[#2A2A2A] flex flex-col justify-center items-center gap-5 mt-32">
+      <div className="h-[460px] bg-[#2a2a2a] flex flex-col justify-center items-center gap-5">
         <div className="flex gap-2 text-white items-center">
           <MdWork className="text-3xl" />
           <p>Vad vi har gjort</p>
@@ -17,7 +17,7 @@ export const Cases = () => {
         </p>
       </div>
 
-      <div className="w-full flex gap-16 flex-wrap justify-center items-start p-20">
+      <div className="w-full flex gap-16 flex-wrap justify-center items-start p-20 bg-[--ws31green]">
         <Elcompaniet />
         <Baeza />
       </div>
