@@ -20,6 +20,13 @@ export const Baeza = () => {
       className="w-[500px] flex flex-col items-start"
       whileHover={{ y: -15 }}
     >
+      <video
+        autoPlay
+        muted
+        className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#e8f0ec] hidden"
+      >
+        <source src={film} />
+      </video>
       {isHovered ? (
         <video
           autoPlay

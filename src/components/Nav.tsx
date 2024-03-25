@@ -14,10 +14,10 @@ export const Nav = () => {
           Hem
         </a>
         <a href="" className="py-2 px-4 hover:bg-[--ws31red] hover:text-white">
-          Case
+          Tjänster
         </a>
         <a href="" className="py-2 px-4 hover:bg-[--ws31red] hover:text-white">
-          Tjänster
+          Case
         </a>
         <a href="" className="py-2 px-4 hover:bg-[--ws31red] hover:text-white">
           Om

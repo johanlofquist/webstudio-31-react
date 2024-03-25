@@ -20,13 +20,20 @@ export const Elcompaniet = () => {
       className="w-[500px] flex flex-col items-start"
       whileHover={{ y: -15 }}
     >
+      <video
+        autoPlay
+        muted
+        className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#0f182a] hidden"
+      >
+        <source src={film} />
+      </video>
       {isHovered ? (
         <video
           autoPlay
           muted
           className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#0f182a]"
         >
-          <source src={film}/>
+          <source src={film} />
         </video>
       ) : (
         <div className="w-[500px] h-[300px] bg-[#0f182a] rounded-md drop-shadow-md flex justify-center items-center transition-all">
