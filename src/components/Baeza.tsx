@@ -24,7 +24,7 @@ export const Baeza = () => {
         <video
           autoPlay
           muted
-          className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#0f182a]"
+          className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#e8f0ec]"
         >
           <source src={film} />
         </video>

@@ -6,10 +6,6 @@ export const Cases = () => {
     <div className="w-full flex gap-10 flex-wrap justify-center items-start pb-10">
       <Elcompaniet />
       <Baeza />
-      <Elcompaniet />
-      <Baeza />
-      <Elcompaniet />
-      <Baeza />
     </div>
   );
 };
