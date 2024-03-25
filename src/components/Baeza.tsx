@@ -23,6 +23,7 @@ export const Baeza = () => {
       {isHovered ? (
         <video
           autoPlay
+          muted
           className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#0f182a]"
         >
           <source src={film} />
