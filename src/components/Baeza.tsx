@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { useState } from "react";
 import { PiLeafDuotone } from "react-icons/pi";
-import film from "../assets/testbaeza.gif";
+import film from "../assets/testbaeza.mov";
 
 export const Baeza = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -22,10 +22,11 @@ export const Baeza = () => {
     >
       {isHovered ? (
         <video
-          src={film}
           autoPlay
-          className="h-[300px] rounded-md drop-shadow-md bg-[#e8f0ec]"
-        ></video>
+          className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#0f182a]"
+        >
+          <source src={film} />
+        </video>
       ) : (
         <div className="w-[500px] h-[300px] bg-[#e8f0ec] rounded-md drop-shadow-md flex justify-center items-center transition-all">
           <PiLeafDuotone className="text-5xl text-[#4abd7f]" />

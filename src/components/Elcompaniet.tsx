@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import logo from "../assets/logowhite.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { useState } from "react";
-import film from "../assets/testelcomp.gif";
+import film from "../assets/testelcomp.mov";
 
 export const Elcompaniet = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -22,10 +22,11 @@ export const Elcompaniet = () => {
     >
       {isHovered ? (
         <video
-          src={film}
           autoPlay
           className="h-[300px] rounded-md drop-shadow-md transition-all bg-[#0f182a]"
-        ></video>
+        >
+          <source src={film}/>
+        </video>
       ) : (
         <div className="w-[500px] h-[300px] bg-[#0f182a] rounded-md drop-shadow-md flex justify-center items-center transition-all">
           <img src={logo} className="w-[200px]" />
