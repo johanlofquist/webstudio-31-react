@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 
 export const Nav = () => {
   return (
-    <div className="h-[70px] flex justify-between items-center sticky top-0 left-0 w-full">
+    <div className="h-[70px] flex justify-between items-center sticky top-0 left-0 w-full z-50">
       <div className="flex items-center gap-2">
         <img src={logo} className="h-[40px]" />
         <p className="font-[600] text-[24px]">
