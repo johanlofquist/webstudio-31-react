@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import logo from "../assets/logowhite.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { useState } from "react";
-import film from "../assets/testelcomp.mov";
+import film from "../assets/testelcomp.gif";
 
 export const Elcompaniet = () => {
   const [isHovered, setIsHovered] = useState(false);

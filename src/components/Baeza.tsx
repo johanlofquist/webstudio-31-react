@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { useState } from "react";
 import { PiLeafDuotone } from "react-icons/pi";
-import film from "../assets/testbaeza.mov";
+import film from "../assets/testbaeza.gif";
 
 export const Baeza = () => {
   const [isHovered, setIsHovered] = useState(false);
