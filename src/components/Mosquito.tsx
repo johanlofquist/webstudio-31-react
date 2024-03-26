@@ -2,6 +2,7 @@ import mosquito from "../assets/mygga.svg";
 import deadMosquito from "../assets/deadmygga.svg";
 import { useEffect, useState } from "react";
 import ljud from "../assets/squish.mp3";
+import { MotionConfig, motion } from "framer-motion";
 
 export const Mosquito = () => {
   const [x, setX] = useState(200);
@@ -29,7 +30,7 @@ export const Mosquito = () => {
   };
 
   return isFlyAlive ? (
-    <img
+    <motion.img
       src={mosquito}
       style={{
         position: "absolute",
@@ -38,6 +39,7 @@ export const Mosquito = () => {
         width: "50px",
         zIndex: "99",
       }}
+      whileHover={{ x: 20, y: 20 }}
       onClick={handleClick}
     />
   ) : (
