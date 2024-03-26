@@ -2,7 +2,7 @@ import mosquito from "../assets/mygga.svg";
 import deadMosquito from "../assets/deadmygga.svg";
 import { useEffect, useState } from "react";
 import ljud from "../assets/squish.mp3";
-import { MotionConfig, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 export const Mosquito = () => {
   const [x, setX] = useState(200);
